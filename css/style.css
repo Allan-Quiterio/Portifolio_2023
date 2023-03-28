@@ -13,6 +13,7 @@
   --color-c12: #292929; 
   --color-c13: #141414;
   --color-c14: #000;
+  --color-c15: #FFF;
 }
 
 body {
@@ -103,3 +104,94 @@ main {
   font-size: 1.5rem;
 }
 
+.experiencia {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  margin-top: 231px;
+  padding: 0px 140px;
+}
+
+.experiencia h2 {
+  font-family: 'Times New Roman', serif;
+  font-size: 9rem;
+  text-transform: uppercase;
+  word-break: break-all;
+  color: var(--color-c3);
+}
+
+.resumo {
+  padding: 0px 370px 0px 115px;
+  font-size: 1.5rem;
+  padding-top: 30px;
+}
+
+.experiencias-profissionais {
+  display: grid;
+  grid-template-columns: 70px 800px;
+  margin-top: 60px;
+  padding-left: 44px;
+}
+
+#estagio {
+  margin-top: 0;
+}
+
+.experiencias-profissionais p {
+  font-size: 0.87rem;
+  margin-top: 20px;
+}
+
+.experiencias-profissionais::after {
+  content: "";
+  position: relative;
+  width: 4px;
+  height: 20px;
+  background-image: linear-gradient(180deg, #B629F8 0%, #800ADD 100%);
+  right: -66px;
+  top: -130px;
+}
+
+.experiencias-profissionais h4 {
+  font-size: 1.12rem;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', serif;
+}
+
+.info-trabalho {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--color-c1);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.info-arpia p {
+  padding-right: 120px;
+  margin-top: 10px;
+}
+
+.tecnologias {
+  margin-left: 40px;
+}
+
+.tecnologias h4 {
+  margin: 0px;
+}
+
+.tecnologias ul{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tecnologias li{
+  margin-top: 20px;
+}
+
+.tecnologias a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: var(--color-c15);
+  color: var(--color-c13);
+  border-radius: 5px;
+}
