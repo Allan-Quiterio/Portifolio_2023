@@ -14,6 +14,7 @@
   --color-c13: #141414;
   --color-c14: #000;
   --color-c15: #FFF;
+  --color-c16: #090909;
 }
 
 body {
@@ -106,7 +107,7 @@ main {
 
 .experiencia {
   display: grid;
-  grid-template-columns: 400px 1fr;
+  grid-template-columns: 1fr 2fr;
   margin-top: 231px;
   padding: 0px 140px;
 }
@@ -117,6 +118,7 @@ main {
   text-transform: uppercase;
   word-break: break-all;
   color: var(--color-c3);
+  padding-right: 100px;
 }
 
 .resumo {
@@ -194,4 +196,118 @@ main {
   background-color: var(--color-c15);
   color: var(--color-c13);
   border-radius: 5px;
+}
+
+.formacao {
+  background: var(--color-c13);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 140px 140px 0px;
+}
+
+.formacao h2 {
+  font-size: 9rem;
+  text-transform: uppercase;
+  word-break: break-all;
+  padding-right: 100px;
+  color: var(--color-c12);
+}
+
+.p-resumo {
+  font-size: 1.5rem;
+  color: var(--color-c6);
+  margin-right: 300px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.p-resumo strong {
+  color: var(--color-c15);
+}
+
+.academico {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.curso {
+  background-color: var(--color-c16);
+  padding: 20px 20px 0px;
+  border-radius: 5px;
+}
+
+.curso p {
+  text-transform: uppercase;
+  color: var(--color-c6);
+  margin-bottom: 10px;
+}
+
+.curso strong {
+  font-size: 1.12rem;
+  color: var(--color-c15);
+}
+
+.curso::after{
+  content: "";
+  display: flex;
+  position: relative;
+  width: 4px;
+  height: 20px;
+  background-image: linear-gradient(180deg, #B629F8 0%, #800ADD 100%);
+  top: -124px;
+  left: -23px;
+}
+
+.instituicao {
+  margin-top: 50px;
+  font-size: 1.12rem;
+}
+
+.atividades-complementares div {
+  display: flex;
+  margin-top: 60px;
+  gap: 12px;
+  align-items: center;
+}
+
+.atividades-complementares h4 {
+  font-size: 0.87rem;
+  color: var(--color-c7);
+  text-transform: uppercase;
+}
+
+.atividades-complementares section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  gap: 20px 0px;
+}
+
+.atividades-complementares p {
+  color: var(--color-c15);
+  font-size: 1.12rem;
+}
+
+.atividades-complementares .horario {
+  color: var(--color-c7);
+  margin-left: 80px;
+}
+
+.atividades-complementares strong {
+  color: var(--color-c7);
+}
+
+.idioma{
+  margin-top: 30px;
+}
+
+#ingles {
+  margin-top: 20px;
+}
+
+.img-detalhe-roxo {
+  position: relative;
+  bottom: -55px;
 }
