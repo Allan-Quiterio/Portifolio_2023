@@ -103,6 +103,7 @@ main {
 
 .section-txt p {
   font-size: 1.5rem;
+  text-shadow: 0px 4px 4px var(--color-c10);
 }
 
 .experiencia {
@@ -203,6 +204,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 2fr;
   padding: 140px 140px 0px;
+  margin-top: 40px;
 }
 
 .formacao h2 {
@@ -310,4 +312,35 @@ main {
 .img-detalhe-roxo {
   position: relative;
   bottom: -55px;
+}
+
+.contatos {
+  background-color: var(--color-c14);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 150px;
+  align-items: center;
+}
+
+.contatos p {
+  font-size: 1.5rem;
+  color: var(--color-c4);
+  padding: 0 350px 0 150px;
+}
+
+.contatos img {
+  width: 50px;
+}
+
+.icones-contato {
+  display: flex;
+  gap: 50px;
+  margin-left: 70px;
+}
+
+.contatos .direitos {
+  font-size: 1.12rem;
+  margin-top: 170px;
+  padding-bottom: 60px;
+  color: var(--color-c7);
 }
