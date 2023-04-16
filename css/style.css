@@ -15,6 +15,8 @@
   --color-c14: #000;
   --color-c15: #FFF;
   --color-c16: #090909;
+  --color-c17: #B629F8;
+  --color-c18: #800ADD;
 }
 
 body {
@@ -102,14 +104,14 @@ main {
   text-shadow: 0px 4px 4px var(--color-c10);
 }
 
-.experiencia {
+#experiencia {
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-top: 231px;
   padding: 0px 140px;
 }
 
-.experiencia h2 {
+#experiencia h2 {
   font-family: 'Times New Roman', serif;
   font-size: 9rem;
   text-transform: uppercase;
@@ -146,7 +148,7 @@ main {
   position: absolute;
   width: 4px;
   height: 20px;
-  background-image: linear-gradient(180deg, #B629F8 0%, #800ADD 100%);
+  background-image: linear-gradient(180deg, var(--color-c17) 0%, var(--color-c18) 100%);
   left: 7rem;
   top: 1.3rem;
 }
@@ -196,7 +198,7 @@ main {
   border-radius: 5px;
 }
 
-.formacao {
+#formacao {
   background: var(--color-c13);
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -204,7 +206,7 @@ main {
   margin-top: 40px;
 }
 
-.formacao h2 {
+#formacao h2 {
   font-size: 9rem;
   text-transform: uppercase;
   word-break: break-all;
@@ -255,7 +257,7 @@ main {
   position: absolute;
   width: 4px;
   height: 20px;
-  background-image: linear-gradient(180deg, #B629F8 0%, #800ADD 100%);
+  background-image: linear-gradient(180deg, var(--color-c17) 0%, var(--color-c18) 100%);
   top: 3rem;
   left: -0.3rem;
 }
@@ -312,7 +314,7 @@ main {
   bottom: -55px;
 }
 
-.contatos {
+#contatos {
   background-color: var(--color-c14);
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -321,13 +323,13 @@ main {
   /* width: 100%; */
 }
 
-.contatos p {
+#contatos p {
   font-size: 1.5rem;
   color: var(--color-c4);
   padding: 0 350px 0 150px;
 }
 
-.contatos img {
+#contatos img {
   max-width: 50px;
 }
 
@@ -342,7 +344,7 @@ main {
   transition: all 0.4s ease-in-out;
 }
 
-.contatos .direitos {
+#contatos .direitos {
   font-size: 1.12rem;
   margin-top: 170px;
   padding-bottom: 60px;
@@ -357,11 +359,11 @@ main {
     padding-right: 100px;
   }
   
-  .experiencia h2 {
+  #experiencia h2 {
     padding-right: 0;
   }
 
-  .contatos p {
+  #contatos p {
     padding: 0 150px;
   }
 }
@@ -372,17 +374,17 @@ main {
     padding-right: 100px;
   }
   
-  .experiencia h2 {
+  #experiencia h2 {
     font-size: 6rem;
   }
 }
 
 @media (max-width: 1402px) {
-  .experiencia {
+  #experiencia {
     grid-template-columns: 1fr;
   }
 
-  .experiencia h2 {
+  #experiencia h2 {
     text-align: center;
   }
 
@@ -399,11 +401,11 @@ main {
     left: 4.2rem;
   }
 
-  .formacao {
+  #formacao {
     grid-template-columns: 1fr;
   }
 
-  .formacao h2 {
+  #formacao h2 {
     padding-right: 0;
     text-align: center;
   }
@@ -423,15 +425,15 @@ main {
     padding: 0 50px;
   }
 
-  .contatos p {
+  #contatos p {
     padding-right: 0;
   }
 
-  .experiencia {
+  #experiencia {
     margin: 90px 0;
   }
 
-  .formacao h2 {
+  #formacao h2 {
     font-size: 7rem;
     padding-bottom: 40px;
   }
@@ -467,11 +469,11 @@ main {
     display: none;
   }
 
-  .experiencia {
+  #experiencia {
     padding: 0 30px;
   }
 
-  .formacao {
+  #formacao {
     margin: 0;
     padding: 50px 30px;
   }
@@ -480,11 +482,11 @@ main {
     bottom: -115px;
   }
 
-  .contatos {
+  #contatos {
     padding: 150px 30px 0;
   }
 
-  .contatos p {
+  #contatos p {
     padding-left: 0;
   }
 }
@@ -500,11 +502,11 @@ main {
 }
 
 @media (max-width: 754px) {
-  .experiencia {
+  #experiencia {
     padding: 20px;
   }
 
-  .experiencia h2 {
+  #experiencia h2 {
     font-size: 4.5rem;
   }
 
@@ -512,7 +514,7 @@ main {
     padding: 30px 30px 0;
   }
 
-  .formacao h2 {
+  #formacao h2 {
     font-size: 5.5rem;
   }
 
@@ -520,13 +522,13 @@ main {
     margin: 0;
   }
 
-  .contatos {
+  #contatos {
     grid-template-columns: 1fr;
     padding: 150px 30px 0;
     align-self: center;
   }
 
-  .contatos p {
+  #contatos p {
     margin-bottom: 50px;
   }
 
@@ -535,7 +537,7 @@ main {
     justify-content: center;
   }
 
-  .contatos .direitos {
+  #contatos .direitos {
     margin: 80px 0 0;
     text-align: center;
   }
@@ -552,7 +554,7 @@ main {
     justify-self: center;
   }
 
-  .experiencia h2 {
+  #experiencia h2 {
     font-size: 3.5rem;
   }
 
@@ -572,7 +574,7 @@ main {
     font-size: 1.3rem;
   }
 
-  .formacao h2 {
+  #formacao h2 {
     font-size: 4.6rem;
   }
 
