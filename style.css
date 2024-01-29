@@ -27,6 +27,7 @@ body, html, h1, h2, h3, h4, p, div, ul, li, nav, main, article, section, a, stro
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 .header-principal {
@@ -126,13 +127,9 @@ main {
 .experiencias-profissionais {
   display: grid;
   grid-template-columns: 70px 800px;
-  margin-top: 60px;
+  margin-top: 20px;
   padding-left: 44px;
   position: relative;
-}
-
-#estagio {
-  margin-top: 20px;
 }
 
 .experiencias-profissionais p {
@@ -164,9 +161,13 @@ main {
   padding: 20px;
 }
 
-.info-arpia p {
-  padding-right: 120px;
-  margin-top: 10px;
+.info-trabalho-interno a {
+  color: var(--color-c18);
+  font-weight: 600;
+}
+
+.info-trabalho-interno a:hover {
+  color: var(--color-c17);
 }
 
 .tecnologias {
@@ -491,7 +492,7 @@ main {
     font-size: 3rem;
   }
 
-  .info-arpia p {
+  .info-trabalho-interno p {
     padding-right: 60px;
   }
 }
@@ -577,7 +578,7 @@ main {
     margin: 20px 0;
   }
 
-  .info-arpia p {
+  .info-trabalho-interno p {
     padding-right: 60px;
   }
 
